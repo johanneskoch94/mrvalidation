@@ -4,11 +4,10 @@
 \alias{calcValidIncome}
 \title{calcValidIncome}
 \usage{
-calcValidIncome(datasource = "James")
+calcValidIncome(datasource = "WDI-MI_SSPs-MI")
 }
 \arguments{
-\item{datasource}{To switch between historical values of James et al (default) or
-with future projections for different scenarios (James_OECD_Nakicenovic)}
+\item{datasource}{"WDI-MI_SSPs-MI"}
 }
 \value{
 list of magpie object with data and weight. Since intensive and extensive variables
