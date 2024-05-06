@@ -21,7 +21,7 @@ calcValidAgriResearchIntensity<-function(datasource = "Pardey"){
     agRD <- readSource("PardeyAgRD", convert = TRUE)
 
 
-    gdp <- collapseNames(calcOutput("GDP", unit = "constant 2005 US$MER",
+    gdp <- collapseNames(calcOutput("GDP", unit = "constant 2017 US$MER",
                       naming = "scenario", aggregate = FALSE)[,,"SSP2"])
 
     cyears <- intersect(getYears(agRD), getYears(gdp))
